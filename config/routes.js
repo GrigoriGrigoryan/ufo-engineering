@@ -3,4 +3,8 @@ module.exports.routes = {
     controller: 'UserController',
     action: 'insertUserData',
   },
+  'get /users': {
+    controller: 'UserController',
+    action: 'generateUsersList',
+  },
 };
